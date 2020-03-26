@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>javascript practice</h1>
+    <p id="demo"></p>
+
+    <script>
+      const myArray = ["juila", "nathaniel", "python"]; //create arrays
+      document.getElementById("demo").innerHTML = myArray.toString();
+      /* variables*/
+      let greet, helloUser; // initialise two variables
+      greet = "hello";  // assign a value
+      let userInput = // get user input from the DOM
+      helloUser = `Oh, ${greet} ${userInput}`;
+
+      let myVar = // can be: string, number, boolean
+      const myVar = // can be: array, object, function…
+
+      myVar === myVar01; // true if the same
+      myVar !== myVar01; // TRUE If different
+
+/*variable scoping*/
+
+    function demoLet() {
+      //tuce is *not* visible out here
+    for( let tuce = 0; tuce < 5; tuce+=1 ) {
+    //tuce is only visible in here (in the for())
+  }
+    //tuce is *not* visible out here
+}
+
+    function demoVar() {
+        //nish *is* visible out here
+        for( var nish = 0; nish < 5; nish++ ) {
+    //nish is visible to the whole function
+  }
+  //nish *is* visible out here
+}
+              /*functions*/
+
+    function multiplyNums(x, y) {
+      return x * y;
+    }         // function declaration
+
+      // function expression (as an arrow function)
+    const multiplyNums = (x, y) => x * y;
+
+    const squares = [1,2,3,4,5];
+    squares.map(num => square(num)); //(arrow function)
+    // [1, 4, 9, 16, 25] much better than a for loop!
+
+
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
